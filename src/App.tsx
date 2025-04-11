@@ -17,7 +17,7 @@ function App() {
         setSelectedImage(imageUrl);
         
         // Simulate disease detection with random matching
-        // In a real application, you would implement actual image analysis here
+       
         const randomIndex = Math.floor(Math.random() * potatoDiseases.length);
         const similarity = Math.random() * 0.3 + 0.7; // Random similarity between 70-100%
         setMatchedDisease({
